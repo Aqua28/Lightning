@@ -7,7 +7,7 @@ int endY = 0;
 void setup()
 {
 	strokeWeight(4);
-	background(25, 0, 21);
+	background(0, 21, 51);
   	size(400,400);
 }
 void draw()
@@ -37,7 +37,7 @@ void house()
 	rect(150, 350, 20, 350);
 	rect(200, 370, 50, 350);
 	rect(170, 350, 40, 350);
-	triangle(180, 200, 150, 400,200, 400);
+	triangle(130, 200, 100, 400, 160, 400);
 }
 void mousePressed()
 {
